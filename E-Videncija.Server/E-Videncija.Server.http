@@ -1,0 +1,6 @@
+@E_Videncija.Server_HostAddress = http://localhost:5125
+
+GET {{E_Videncija.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

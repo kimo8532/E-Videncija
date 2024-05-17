@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>E_Videncija.Repository</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-Videncija.DAL\E-Videncija.DAL.csproj" />
+    <ProjectReference Include="..\E-Videncija.Model\E-Videncija.Model.csproj" />
+    <ProjectReference Include="..\E-Videncija.Repository.Common\E-Videncija.Repository.Common.csproj" />
+  </ItemGroup>
+
+</Project>

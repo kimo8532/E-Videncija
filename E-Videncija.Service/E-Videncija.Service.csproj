@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>E_Videncija.Service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-videncija.Model\E-Videncija.Model.csproj" />
+    <ProjectReference Include="..\E-Videncija.Repository.Common\E-Videncija.Repository.Common.csproj" />
+    <ProjectReference Include="..\E-Videncija.Repository\E-Videncija.Repository.csproj" />
+    <ProjectReference Include="..\E-Videncija.Service.Common\E-Videncija.Service.Common.csproj" />
+  </ItemGroup>
+
+</Project>
